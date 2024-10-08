@@ -3,84 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kostiantyn Poliakov</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            background-color: #f4f4f4;
-        }
-        header {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        img {
-            width: 150px;
-            heigh: 150px;
-            border-radius: 50%;
-        }
-        h1 {
-            color: #333;
-        }
-        section {
-            margin-bottom: 20px;
-            background: white;
-            padding: 15px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-    </style>
+    <title>Kostiantyn Poliakov - CV</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-    <header>
-        <img src="yourphoto.jpg" alt="Your Name">
-        <h1>Kostiantyn Poliakov</h1>
-        <p>Full Stack Software Engineer</p>
-    </header>
-    <section>
-        <h2>About Me</h2>
-        <p>Full stack developer with more than 10 years of experience with  PHP, Symfony, React.js, MySQL, Doctrine, REST API .
+<body class="bg-gray-100 font-sans">
+    <div class="max-w-3xl mx-auto p-6 bg-white shadow-lg rounded-lg">
+        <header class="text-center mb-6">
+            <img src="yourphoto.jpg" alt="Your Name" class="w-32 h-32 rounded-full mx-auto mb-4">
+            <h1 class="text-3xl font-bold text-gray-800">Kostiantyn Poliakov</h1>
+            <p class="text-gray-600">Full Stack Software Engineer</p>
+        </header>
+        <section class="mb-6">
+            <h2 class="text-2xl font-semibold text-gray-800">About Me</h2>
+            <p class="text-gray-700">Full stack developer with more than 10 years of experience with  PHP, Symfony, React.js, MySQL, Doctrine, REST API .
 <br/>Complex web applications development. REST API  development for ios, Android. 
 </p>
-    </section>
-    <section>
-        <h2>Experience</h2>
-        <ul>
-            <li>2019-2024 Senior Software Engineer at Globaldev</li>
-            <li>2017-2019 Senior Software Engineer at Kyivstar.ua/</li>
-            <li>2014-2016 Software Engineer at FormaPro</li>
-            <li>2014-2014 Junior Software Engineer at NitraLabs</li>
-        </ul>
-    </section>
-    <section>
-<!--         <h2>Education</h2>
-        <ul>
-            <li></li>
-        </ul> -->
-    </section>
-    <section>
-        <h2>Skills</h2>
-        <h3>Languages</h3>
-        <ul>            
+        </section>
+        <section class="mb-6">
+            <h2 class="text-2xl font-semibold text-gray-800">Experience</h2>
+            <ul class="list-disc list-inside text-gray-700">
+               <li>(2019-2024) Senior Software Engineer at Globaldev</li>
+            <li>(2017-2019) Senior Software Engineer at Kyivstar.ua/</li>
+            <li>(2014-2016) Software Engineer at FormaPro</li>
+            <li>(2014-2014) Junior Software Engineer at NitraLabs</li>
+            </ul>
+        </section>
+        <section class="mb-6">
+            <h2 class="text-2xl font-semibold text-gray-800">Education</h2>
+            <ul class="list-disc list-inside text-gray-700">
+                <li>Degree at University (Year)</li>
+            </ul>
+        </section>
+        <section class="mb-6">
+            <h2 class="text-2xl font-semibold text-gray-800">Skills</h2>
+            <h3>Languages</h3>
+            <ul class="grid grid-cols-1 sm:grid-cols-2 gap-4 list-disc list-inside text-gray-700">
+                 
             <li>PHP</li>
             <li>JavaScript</li>
              <li>Python</li>
             <li>MySQL</li>
         </ul>
         <h3>Frameworks</h3>
-        <ul>            
+        <ul class="grid grid-cols-1 sm:grid-cols-2 gap-4 list-disc list-inside text-gray-700">           
             <li>Symfony</li>
             <li>React JS</li>
              <li>Django</li>
         </ul>
-    </section>
-    <section>
-    <h2>Contact Me</h2>
-   
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/polyakovkonstantin/" target="_blank">polyakovkonstantin</a></p>
+            </ul>
+        </section>
+        <section class="mb-6">
+            <h2 class="text-2xl font-semibold text-gray-800">Contact Me</h2>
+           <p>LinkedIn: <a href="https://www.linkedin.com/in/polyakovkonstantin/" target="_blank">polyakovkonstantin</a></p>
     <p>GitHub: <a href="https://github.com/kostya-p-dev" target="_blank">kostya-p-dev</a></p>
         <p>UpWork: <a href="https://www.upwork.com/freelancers/~01af6041b00ef934ec?mp_source=share" target="_blank">kostiantyn poliakov</a></p>
-</section>
+        </section>
+    </div>
 </body>
 </html>
